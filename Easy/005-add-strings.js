@@ -36,6 +36,7 @@ var addStrings = function (num1, num2) {
 
 
     while (i >= 0 || j >= 0) {
+        // by using +num[i](+ unary plus operato) convert string to number 
         let n1 = i >= 0 ? +num1[i] : 0; // i>=0 flase assigned 0 to n1
         let n2 = j >= 0 ? +num2[j] : 0; // j>=0 flase assigned 0 to n2
         let sum = n1 + n2 + carry;
